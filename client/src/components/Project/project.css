@@ -1,0 +1,27 @@
+.project {
+    width:35em;
+    height:20em;
+    border-style: none;
+    background-color: #343a40;
+}
+
+img {
+    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    height: 10em;
+    width: 10em;
+}
+.card-body {
+    height: 5em;
+    background-color: #343a40;
+    color:white;
+}
+
+.svg-inline--fa.fa-w-16 {
+    width: 1.75em;
+}
+
+.svg-inline--fa {
+    height: 1.75em;
+}
