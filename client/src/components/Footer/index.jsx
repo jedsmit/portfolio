@@ -4,10 +4,10 @@ import './footer.css'
 function Footer() {
     return (
 
-        <footer className="footer text-white text-center">
+        <footer className="footer pb-3 fixed-bottom text-white text-center">
             <div className="container">
-                <p>© 2020 Copyright |
-             Jed Smit Web Development</p>
+                <span>© 2020 Copyright |
+             Jed Smit Web Development</span>
             </div>
         </footer>
 
