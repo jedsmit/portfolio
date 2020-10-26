@@ -1,8 +1,6 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
-import ReactDOM from 'react-dom'
+import { NavLink } from 'react-router-dom';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGithub } from '@fortawesome/free-solid-svg-icons'
 
 //style
 import '../Navbar/navbar.css';
@@ -27,15 +25,15 @@ function Navbar() {
                 <ul className="navbar-nav">
 
                     <li className="nav-item">
-                        <Link to="/" className="nav-link text-white">home</Link>
+                        <NavLink to="/" activeClassName='activeLink' className="nav-link text-white">home</NavLink>
                     </li>
 
                     <li className="nav-item">
-                        <Link to="/resume" className="nav-link text-white">resume</Link>
+                        <NavLink activeClassName='activeLink' to="/resume" className="nav-link text-white">resume</NavLink>
                     </li>
 
                     <li className="nav-item">
-                        <Link to='/contact' className="nav-link text-white">contact</Link>
+                        <NavLink activeClassName='activeLink' to='/contact' className="nav-link text-white">contact</NavLink>
                     </li>
 
                     <li className="nav-item">

@@ -1,8 +1,9 @@
 .project {
     width:35em;
-    height:20em;
+    height:13em;
     border-style: none;
-    background-color: #343a40;
+    /* background-color: #343a40; */
+    background: transparent;
 }
 
 img {
@@ -14,8 +15,9 @@ img {
 }
 .card-body {
     height: 5em;
-    background-color: #343a40;
+    /* background-color: #343a40; */
     color:white;
+    background: transparent;
 }
 
 .svg-inline--fa.fa-w-16 {

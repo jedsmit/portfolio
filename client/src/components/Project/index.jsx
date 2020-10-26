@@ -3,7 +3,7 @@ import React from 'react'
 import './project.css'
 function Project(props) {
     return (
-        <div className='project card mx-auto'>
+        <div className='project card'>
             <div className="row no-gutters">
                 <div class="col-md-4 project-image">
                     <img src={props.imageSrc} className="card-img-top" alt={props.imageAlt} />

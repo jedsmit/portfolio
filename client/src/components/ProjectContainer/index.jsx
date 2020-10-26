@@ -6,7 +6,6 @@ import Project from '../Project'
 //STYLE
 import './projectContainer.css'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faGithub } from '@fortawesome/free-solid-svg-icons'
 
 
 function ProjectContainer() {
@@ -18,7 +17,7 @@ function ProjectContainer() {
         < div className='projectContainer container-fluid mx-auto' >
 
             <p className='text-center' style={{ "fontSize": "2em" }}>projects</p>
-            <div className="row">
+            <div className="row justify-content-center pt-4">
 
                 {projects.map(project => {
                     console.log(project)

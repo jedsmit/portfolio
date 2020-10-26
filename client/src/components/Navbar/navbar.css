@@ -1,5 +1,6 @@
 body {
-  background-color: #343a40;;
+  /* background-color: #343a40;; */
+  background: transparent;
 }
 .navbar {
 border-bottom-color: rgb(110, 7, 7);
@@ -9,31 +10,15 @@ a:link {
     text-decoration: none;
   }
   
-  a:visited {
+a:visited {
     color: white;
     text-decoration: none;
   }
   
-  .nav-link:hover, .fab:hover, a:hover {
-    position: relative;
-    font-family: sans-serif;
-    /* text-transform: uppercase;
-    font-size: 2em;
-    letter-spacing: 4px; */
-    overflow: hidden;
-    background: linear-gradient(90deg,#343a40, rgb(110, 7, 7), white);
-    background-repeat: no-repeat;
-    background-size: 80%;
-    animation: animate 1.5s linear infinite;
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: rgba(255, 255, 255, 0);
+.nav-link:hover, .nav-item:hover, .fab:hover, a:hover {
+    color: rgb(110, 7, 7);
   }
-  
-  @keyframes animate {
-    0% {
-      background-position: -500%;
-    }
-    100% {
-      background-position: 500%;
-    }
+
+  .activeLink {
+    color: rgb(110, 7, 7);
   }
